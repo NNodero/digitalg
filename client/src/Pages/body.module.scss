@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 .body{
-    padding-top: 95px;
+    padding-top: 15rem;
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -16,31 +16,32 @@
 
 
         .box1{
+            padding-top: 80px;
             display: flex;
             flex-direction: column;
-            width: 70rem;
-            gap: 30px;
+            width: 72rem;
+            gap: 45px;
 
         
         .heading{
             h2{
-                font-size: 80px;
+                font-size:90px;
                 font-family: Gilroy_Bold;
             }
             
         }
         .typer{
             h2{
-                font-size: 80px;
+                font-size: 90px;
                 font-family: Gilroy_Bold;
             }
             
         }
         .text{
             width: 41rem;
-            z-index: 1;
+     
 
-            font-size: 26px;
+            font-size: 29px;
             font-weight: 500;
             
         }
@@ -64,6 +65,8 @@
         }
 
     }
+
+
     .animatedimg{
         position: absolute;
         right: 10%;
@@ -106,8 +109,13 @@
             transform: translateY(0rem);  
         }
     }
+ }
 
-   .arrow{
+
+ /////////////--///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    .arrow{
 
         .arrowdown{
             // border: 1px solid red;
@@ -141,15 +149,15 @@
 
 
 
-    }
+/////////////--///////////////////////////////////////////////////////////////////////////////////////////////////
 
     .container{
         display: flex;
         flex-direction: row;
 
         .one{
-            width: 27em;
-            height: 25em;
+            width: 35em;
+            height: 35em;
             overflow: hidden;
             cursor: pointer;  
             position: relative;
@@ -180,11 +188,11 @@
                 height: 100%;
                 transition: 0.2s ease-in-out;
                 .cover_header{
-                    font-size: 20px;
+                    font-size: 25px;
                     font-family: Gilroy_Regular;
                 }
                 .cover_subheader{
-                    font-size: 27px;
+                    font-size: 35px;
                     font-family: Gilroy_Bold;
                 }
                 .pg{
@@ -195,7 +203,7 @@
                     transition:grid-template-rows 0.3s ease-out;
                     p{
                         padding-top: 20px;
-                        font-size: 16px;
+                        font-size: 23px;
                         font-family: Gilroy_Regular;
                     }
 
@@ -223,6 +231,9 @@
 
         }       
     }
+
+/////////////--///////////////////////////////////////////////////////////////////////////////////////////////////
+
     .textmain{
         display: flex;
         flex-direction: column;
@@ -230,30 +241,30 @@
         gap: 4rem;
 
         .text2{
-            font-size: 50px;
+            font-size: 60px;
             font-family:Gilroy_Bold;
             font-weight: 500;
 
         }
         .textbox{
             display: grid;
-            grid-template-columns: 28rem 38rem;
+            grid-template-columns: 37rem 46rem;
             // border: 1px solid red;
             column-gap: 7rem;
-            padding-left:2rem;
+            padding-left:4rem;
 
             
             .text3{
                 // border: 1px solid red;
                 font-family: Crimson_Regular;
-                font-size: 29px;
+                font-size: 34px;
 
 
             }
             .text4{
                 // border: 1px solid red;
                 font-family: Gilroy_Regular;
-                font-size: 23px;
+                font-size: 26px;
                 display: flex;
                 flex-direction: column;
                 gap:2rem;
@@ -262,6 +273,8 @@
             }
         }
     }
+
+////////////////--///////////////////////////////////////////////////////////////////////////////////////////////////
 
     .main1{
         display: flex;
@@ -279,10 +292,14 @@
         }
         .box3{
             display: grid;
-            grid-template-columns: repeat(4,19rem);
+            grid-template-columns: repeat(4,22rem);
             column-gap: 2.5rem;
             row-gap: 5.5rem;
             // border: 1px solid red;
+            .link{
+                text-decoration: none;
+
+            
     
 
             .item{
@@ -321,10 +338,11 @@
                 
                 .title{  
                     font-family: Gilroy_Bold;
-                    font-size: 21px;
+                    font-size: 23px;
                     display: flex;
                     text-align:center ;
                     align-items: center;
+                    color: #000000;
 
                     .arrow{
                         font-size: 25px;
@@ -337,8 +355,10 @@
                 }
                 .subtitle{
                     font-family: Gilroy_Regular;
-                    font-size: 23px;
+                    font-size: 25px;
                     text-align:center ;
+                    color: #000000;
+
                     
                 }
                 &:hover{
@@ -359,9 +379,12 @@
 
             }
         }
+        }
 
        
     }
+
+/////////////--///////////////////////////////////////////////////////////////////////////////////////////////////
 
     .main2{
         display: flex;
@@ -405,13 +428,13 @@
                     gap: 15px;
 
                     h3{
-                        font-size: 40px; 
+                        font-size: 48px; 
                         font-family: Gilroy_Bold; 
                     }
                     p{
                         display: flex;
                         justify-content: center;
-                        font-size: 23px;
+                        font-size: 25px;
                         font-family: Gilroy_Regular; 
 
                     }
@@ -425,6 +448,8 @@
                     color: #3fb91e;
                     transition: color 0.3s ease ;
                     cursor: pointer;
+                    text-decoration-thickness: 4px;
+                    line-height: 2px;
                     &:hover{
                         color:white;
                     }
@@ -462,7 +487,7 @@
                     gap: 15px;
                     
                     h3{
-                        font-size: 40px;  
+                        font-size: 46px;  
                         font-family: Gilroy_Bold; 
 
                         
@@ -471,7 +496,7 @@
                     p{
                         display: flex;
                         justify-content: center;
-                        font-size: 23px;
+                        font-size: 25px;
                         font-family: Gilroy_Regular; 
 
                         
@@ -486,6 +511,8 @@
                     color: white;
                     transition: color 0.3s ease ;
                     cursor: pointer;
+                    text-decoration-thickness: 4px;
+                    line-height: 2px;
                     &:hover{
                         color:black;
                     }
@@ -498,6 +525,8 @@
 
     }
 
+ /////////////--///////////////////////////////////////////////////////////////////////////////////////////////////
+   
     .mainbody3{
         display: flex;
         justify-content: center;
@@ -517,7 +546,7 @@
             justify-content: center;
 
             h3{
-                font-size: 50px;
+                font-size: 60px;
                 font-family: Gilroy_Bold;
             }
         }
@@ -532,23 +561,22 @@
            
             .firsttext{
                 font-family: Crimson_Regular;
-                font-size: 32px;
+                font-size: 36px;
                 
             }
             .secondtext{
                 font-family:Gilroy_Regular;
-                font-size: 23px;
+                font-size: 26px;
             }
 
         }
         .mainbox3{
             display: grid;
-            grid-template-columns: repeat(6,10rem);
+            grid-template-columns: repeat(6,11rem);
             column-gap: 4rem;
-
             .img{
-                width: 160px;
-                height: 150px;
+                width: 180px;
+                height: 140px;
                 // border: 1px solid blue;
                             cursor: pointer;
 
@@ -580,8 +608,13 @@
                 }
             }
         }
+        padding-bottom: 40px;
+
     }
 }
+
+/////////////--///////////////////////////////////////////////////////////////////////////////////////////////////
+
 .main4{
     background-image: url("https://www.digitalgarden.com.au/_next/static/media/green.e278d745.svg");
     display: flex;
@@ -625,8 +658,645 @@
 
 }
 
+}
 
 
+
+
+// --//--////////////////////------//////---------------///////////////////////////////////////////
+@media screen and (max-width: 1580px) {
+    .body{
+        padding-top: 15rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        background-color: #fbfbfb;
     
-
+        section{
+            display: flex;
+           justify-content:  center;
+    
+    
+    
+            .box1{
+                display: flex;
+                flex-direction: column;
+                width: 75rem;
+                gap: 30px;
+    
+            
+            .heading{
+                h2{
+                    font-size: 80px;
+                    font-family: Gilroy_Bold;
+                }
+                
+            }
+            .typer{
+                h2{
+                    font-size: 80px;
+                    font-family: Gilroy_Bold;
+                }
+                
+            }
+            .text{
+                width: 41rem;
+         
+    
+                font-size: 26px;
+                font-weight: 500;
+                
+            }
+            .btnbox{
+                button{
+                    border-style: none;
+                    background-color: #3fb91e;
+                    border-radius: 30px;
+                    transition: border-radius 0.3s;
+                    width: 12rem;
+                    height: 3.6rem;
+                    font-family: Gilroy_Medium;
+                    font-size: 18px;
+                    color: white;
+                    cursor: pointer;
+                    &:hover{
+                        border-radius: 30px 0px 30px 30px;
+    
+                    }
+                }
+            }
+    
+        }
+        .animatedimg{
+            position: absolute;
+            right: 10%;
+            top:29%;
+            animation: 
+                float 4s ease-in-out infinite,
+                blur 10s ease-in-out infinite; 
+    
+            width: 35rem;
+            img{     
+    
+    
+                width: 100%;
+                height: auto;
+                object-fit: cover; 
+                
+            }
+    
+        }
+        @keyframes blur {
+            0%{
+                filter: blur(5px);
+            }
+            50%{
+                filter: blur(7rem);
+            }
+            100%{
+                filter: blur(5px);
+            }
+        }
+        
+        @keyframes float {
+            0%{
+                transform: translateY(0rem);  
+            }
+            50%{
+                transform: translateY(1rem);  
+            }
+            100%{
+                transform: translateY(0rem);  
+            }
+        }
+    
+       .arrow{
+    
+            .arrowdown{
+                // border: 1px solid red;
+    
+                font-size: 50px;
+                animation: rotate 2s ease-in-out infinite;
+    
+                &::after{
+                    top:30%;
+                }
+        
+            }
+        }
+        
+        @keyframes rotate {
+            0%{
+                opacity: 0;
+                transform: translateY(0px);
+            }
+          
+            50%{
+                opacity: 1;
+                transform: translateY(10px);
+            }
+            100%{
+                opacity: 0;
+                transform: translateY(0px);
+            }
+        }
+    
+    
+    
+    
+        }
+    
+        .container{
+            display: flex;
+            flex-direction: row;
+    
+            .one{
+                width: 27em;
+                height: 25em;
+                overflow: hidden;
+                cursor: pointer;  
+                position: relative;
+                // border: 1px solid red;
+             
+                .image{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;;
+                    .img{
+                        width: 100%;
+                        height: 100%;
+                        transition: 0.3s ease;
+                        object-fit: cover;
+                    }
+                }
+                .cover{
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    // border: 1px solid red;
+                    font-size: 25px;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 30px 40px;
+                    gap: 10px;  
+                    height: 100%;
+                    transition: 0.2s ease-in-out;
+                    .cover_header{
+                        font-size: 20px;
+                        font-family: Gilroy_Regular;
+                    }
+                    .cover_subheader{
+                        font-size: 27px;
+                        font-family: Gilroy_Bold;
+                    }
+                    .pg{
+    
+                        display: grid;
+                        grid-template-rows:0rem;
+                        overflow: hidden;
+                        transition:grid-template-rows 0.3s ease-out;
+                        p{
+                            padding-top: 20px;
+                            font-size: 16px;
+                            font-family: Gilroy_Regular;
+                        }
+    
+                    }
+                  
+                  }  
+                  &:hover {
+                    .image .img {
+                      transform: scale(1.1);
+                    }
+                    .cover{
+                        background-color: #3fb91e;
+                        .pg{
+                            grid-template-rows: 10rem;
+    
+                        
+                            
+    
+                        }
+                     
+    
+                    }
+                
+                }
+    
+            }       
+        }
+        .textmain{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4rem;
+    
+            .text2{
+                font-size: 50px;
+                font-family:Gilroy_Bold;
+                font-weight: 500;
+    
+            }
+            .textbox{
+                display: grid;
+                grid-template-columns: 28rem 38rem;
+                // border: 1px solid red;
+                column-gap: 7rem;
+                padding-left:2rem;
+    
+                
+                .text3{
+                    // border: 1px solid red;
+                    font-family: Crimson_Regular;
+                    font-size: 29px;
+    
+    
+                }
+                .text4{
+                    // border: 1px solid red;
+                    font-family: Gilroy_Regular;
+                    font-size: 23px;
+                    display: flex;
+                    flex-direction: column;
+                    gap:2rem;
+    
+    
+                }
+            }
+        }
+    
+        .main1{
+            display: flex;
+            flex-direction: column;
+            gap:6rem;
+            align-items: center;
+            width: 100%;
+            padding-top: 70px;
+    
+            
+            .text5{
+                font-size: 50px;
+                font-family:Gilroy_Bold;
+                font-weight: 500;
+            }
+            .box3{
+                display: grid;
+                grid-template-columns: repeat(4,19rem);
+                column-gap: 2.5rem;
+                row-gap: 5.5rem;
+                // border: 1px solid red;
+        
+    
+                .item{
+                    // border: 1px solid blue;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 15px;
+                    cursor: pointer;
+                    
+    
+                    .imgbox{
+                        width: 28%;
+                        // border: 1px solid red;
+                        position: relative;
+     
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+    
+                        }
+                        .hoverimg{
+                            position: absolute;
+                            top: -20%;
+                            left:-44%;
+                            width: 9rem;
+                            height: 8rem;
+                            opacity: 0;
+                            transition: opacity 0.5s ;
+    
+                        }
+    
+                    }
+                    
+                    .title{  
+                        font-family: Gilroy_Bold;
+                        font-size: 21px;
+                        display: flex;
+                        text-align:center ;
+                        align-items: center;
+    
+                        .arrow{
+                            font-size: 25px;
+                            transform: translateY(3px);
+                            transition:transform 0.22s ease-in;
+    
+                        }
+                     
+    
+                    }
+                    .subtitle{
+                        font-family: Gilroy_Regular;
+                        font-size: 23px;
+                        text-align:center ;
+                        
+                    }
+                    &:hover{
+                        .imgbox .hoverimg{
+                            opacity: 1;
+                        }
+                        .title {
+                            color: #3fb91e;
+    
+                            .arrow{
+                                transform: translate(7px,3px);
+        
+                            }
+    
+                        }
+                      
+                    }
+    
+                }
+            }
+    
+           
+        }
+    
+        .main2{
+            display: flex;
+            // border: 1px solid red;
+            height: 38rem;
+            justify-content: center;
+            padding-top: 50px;
+    
+            .bg{
+                display: flex;
+    
+                background-image: url("https://api.digitalgarden.com.au/sites/default/files/styles/call_to_action_background/public/2021-07/DG_team_Post%20it%20notes.webp?itok=jQtu6-zy");
+                flex: 50%;
+    
+            
+            .box{
+                color: white;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                // border: 1px solid red;
+                justify-content: center;
+                background-color: rgb(1, 1, 1,0.88);   
+                padding: 10rem 6rem;
+        
+                         
+    
+    
+                .boxbox{
+                    display: flex;
+                    flex-direction: column;
+                    gap:7rem;
+                    // border: 1px solid red;
+                    justify-content: space-between;
+    
+                   
+                    .boxxx{
+                        // border: 1px solid red;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+    
+                        h3{
+                            font-size: 40px; 
+                            font-family: Gilroy_Bold; 
+                        }
+                        p{
+                            display: flex;
+                            justify-content: center;
+                            font-size: 23px;
+                            font-family: Gilroy_Regular; 
+    
+                        }
+                    }
+                    span{
+                        display: flex;
+                        justify-content:flex-end;
+                        font-size: 23px;
+                        font-family: Gilroy_Bold; 
+                        text-decoration: underline;
+                        color: #3fb91e;
+                        transition: color 0.3s ease ;
+                        cursor: pointer;
+                        text-decoration-thickness: 4px;
+                        line-height: 2px;
+                        &:hover{
+                            color:white;
+                        }
+    
+    
+                    }  
+              }
+    
+              
+                   
+            }
+        }
+            
+         .box2{
+                background-color: #40bc1c;
+               
+                // border: 1px solid blue;
+                color: white;
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex:50%;
+    
+                .boxbox{
+                    display: flex;
+                    flex-direction: column;
+                    gap:50px;
+                    justify-content: space-between;
+                    padding: 0px 7rem;
+    
+                    .boxxx{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        
+                        h3{
+                            font-size: 40px;  
+                            font-family: Gilroy_Bold; 
+    
+                            
+    
+                    }
+                        p{
+                            display: flex;
+                            justify-content: center;
+                            font-size: 23px;
+                            font-family: Gilroy_Regular; 
+    
+                            
+                        }
+                    }
+                    span{
+                        display: flex;
+                        justify-content:flex-end;
+                        font-size: 23px;
+                        font-family: Gilroy_Bold; 
+                        text-decoration: underline;
+                        color: white;
+                        transition: color 0.3s ease ;
+                        cursor: pointer;
+                        text-decoration-thickness: 4px;
+                        line-height: 2px;
+                        &:hover{
+                            color:black;
+                        }
+    
+    
+                    }    
+              }
+                   
+            }   
+    
+        }
+    
+        .mainbody3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+            .main3{
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+                align-items: center;
+    
+                // border: 1px solid red;
+                width: 80rem;
+                
+                .mainbox1{
+                display: flex;
+                justify-content: center;
+    
+                h3{
+                    font-size: 50px;
+                    font-family: Gilroy_Bold;
+                }
+            }
+            .mainbox2{
+                display: flex;
+                padding: 0px 30px;
+                span{
+                    // border: 1px solid;
+                    width: 40rem;
+    
+                }
+               
+                .firsttext{
+                    font-family: Crimson_Regular;
+                    font-size: 32px;
+                    
+                }
+                .secondtext{
+                    font-family:Gilroy_Regular;
+                    font-size: 23px;
+                }
+    
+            }
+            .mainbox3{
+                display: grid;
+                grid-template-columns: repeat(6,10rem);
+                column-gap: 4rem;
+    
+                .img{
+                    width: 160px;
+                    height: 150px;
+                    // border: 1px solid blue;
+                                cursor: pointer;
+    
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+    
+                    }
+                }   
+    
+            }
+              .btnbox{
+                button{
+                    border-style: none;
+                    background-color: #3fb91e;
+                    border-radius: 30px;
+                    transition: border-radius 0.3s;
+                    width: 12rem;
+                    height: 3.6rem;
+                    font-family: Gilroy_Medium;
+                    font-size: 18px;
+                    color: white;
+                    cursor: pointer;
+                    &:hover{
+                        border-radius: 30px 0px 30px 30px;
+    
+                    }
+                }
+            }
+        }
+    }
+    .main4{
+        background-image: url("https://www.digitalgarden.com.au/_next/static/media/green.e278d745.svg");
+        display: flex;
+        width: 100%;
+        height: 25rem;
+        align-items: center;
+        justify-content: center;
+        .main4main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;       
+            gap: 50px;
+            span{
+                font-family: Gilroy_Bold;
+                color: white;
+                font-size: 50px;
+            }
+            .btnbox{
+                button{
+                    border-style: none;
+                    background-color: #000000;
+                    border-radius: 30px;
+                    transition: border-radius 0.3s;
+                    width: 12rem;
+                    height: 3.6rem;
+                    font-family: Gilroy_Medium;
+                    font-size: 18px;
+                    color: rgb(255, 255, 255);
+                    cursor: pointer;
+                    &:hover{
+                        border-radius: 30px 0px 30px 30px;
+                        background-color: white;
+                        color: black;
+    
+                    }
+                }
+            }
+    
+        }
+    
+    
+    }
+    
+    
+    
+        
+    
+    }
+    
+    
 }

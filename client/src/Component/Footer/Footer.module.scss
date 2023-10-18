@@ -1,0 +1,90 @@
+*{
+    // border: 1px solid;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 25rem;
+    align-items: center;
+    background: linear-gradient(180deg,#353535,#181818);
+    color: white;
+
+    .box1{
+
+    }
+    .box2{
+        display: flex;
+        gap: 5rem;
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            h3{
+                font-family:  Gilroy_Bold;
+                font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+            }
+
+        }
+        .address{
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+            .sydney{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width:11rem;
+              
+                h3{
+                    font-family:  Gilroy_Bold;
+                    font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+                }
+                span{
+                    font-family:  Gilroy_Regular;
+                    font-size: calc(.8125rem + .1875 * ((100vw - 20rem) / 100)) ;
+                    color:#a3a3a3 ;
+                }
+            }
+            .melbourne{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                width:11rem;
+
+
+                h3{
+                    font-family:  Gilroy_Bold;
+                    font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+                }
+                span{
+                    font-family:  Gilroy_Regular;
+                    font-size: calc(.8125rem + .1875 * ((100vw - 20rem) / 100)) ;
+                    color:#a3a3a3 ;
+                }
+                .contact{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                }
+            }
+        }
+        .scl{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            h3{
+            font-family:  Gilroy_Bold;
+            font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+            }
+            span{
+                font-family:  Gilroy_Bold;
+                font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+                color: #a3a3a3;            
+            }
+
+        
+        }
+
+    }
+}

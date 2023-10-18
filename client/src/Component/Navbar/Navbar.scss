@@ -1,23 +1,29 @@
-*{
-    // border: 1px solid red;
 
-}
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.7rem 5.5rem;
+    position: fixed;
+    width: 100%;
+    height:10rem;
+    padding: 0px 100px;
+    background-color: white;
+    z-index: 1;
     box-shadow: -1px 4px 10px -6px rgba(189,189,189,1);
-    position: sticky;
-    
+    transition: 0.5s ease-in-out;    
     .first{
-            
+        // border: 1px solid red;    
+
         img{
              width: 8.5rem;
-             height: 7rem;           
+             height: 7rem;    
+             transition: 0.5s ease-in-out;    
+       
         }
     }
     .second{
+        // border: 1px solid red;    
+
         display: flex;
         gap: 3rem;
             span{
@@ -46,6 +52,10 @@
             .item6{
                 &:hover { color: #3fb91e; }                
             }
+            .item7{
+                font-size: 30px;
+                font-family: Gilroy_thin;
+            }
             
         .searchbox{
             display: flex;
@@ -53,4 +63,16 @@
         }
 
     }
+
+    
 }
+.bar {
+    height: 4rem;
+    .first{
+        img{
+             width: 3.5rem;
+             height: 3rem;           
+        }
+    }
+}
+
