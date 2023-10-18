@@ -1,0 +1,36 @@
+*{
+  margin:0;
+}
+
+@font-face {
+  font-family: Gilroy_Bold ;
+  src: url("./Assets/fonts/gilroy/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy_Regular ;
+  src: url("./Assets/fonts/gilroy/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: Gilroy_Light ;
+  src: url("./Assets/fonts/gilroy/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: Gilroy_Thin ;
+  src: url("./Assets/fonts/gilroy/Gilroy-Thin.ttf");
+}
+@font-face {
+  font-family: Gilroy_Medium;
+  src: url("./Assets/fonts/gilroy/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: Gilroy_Black;
+  src: url("./Assets/fonts/gilroy/Gilroy-Black.ttf");
+}
+@font-face {
+  font-family: Crimson_Regular;
+  src: url("./Assets/fonts/Crimson/CrimsonText-Regular.ttf");
+}
+@font-face {
+  font-family: Crimson_SemiBold;
+  src: url("./Assets/fonts/Crimson/CrimsonText-SemiBold.ttf");
+}
