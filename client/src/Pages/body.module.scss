@@ -21,6 +21,7 @@
             flex-direction: column;
             width: 72rem;
             gap: 45px;
+            z-index: 1;
 
         
         .heading{
@@ -695,7 +696,6 @@
             .box1{
                 width: 70rem;
                 gap: 40px;
-                z-index: 1;
     
             
             .heading{
