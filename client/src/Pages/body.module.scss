@@ -1292,7 +1292,7 @@
 }
 @media screen and (max-width: 550px) {
     .body{
-        padding-top: 8rem;
+        padding-top: 7rem;
         display: flex;
         flex-direction: column;
         gap: 5rem;
@@ -1309,7 +1309,7 @@
                 display: flex;
                 flex-direction: column;
                 width: 26rem;
-                gap: 20px;
+                gap:45px;
                 z-index: 1;
 
             
@@ -1319,20 +1319,22 @@
                 h2{
                     font-size:40px;
                     font-family: Gilroy_Bold;
+                    font-weight: 560;
                 }
                 
             }
             .typer{
                 h2{
-                    font-size: 30px;
+                    font-size: 40px;
                     font-family: Gilroy_Bold;
+                    font-weight: 500;
 
                 }
                 
             }
             .text{
                 width: 26rem;
-                font-size: 20px;
+                font-size: 19px;
                 font-weight: 500;
                 animation: animateText 0.5s forwards 0.3s;
                 opacity: 0;
@@ -1382,6 +1384,7 @@
 
         .animatedimg{
             position: absolute;
+            
             right: 10%;
             top:29%;
             animation: 
@@ -1399,38 +1402,9 @@
             }
 
         }
-        @keyframes blur {
-            0%{
-                filter: blur(4rem);
-            }
-            20%{
-                filter: blur(2rem);
-            }
-            40%{
-                filter: blur(5px);
-            }
-            60%{
-                filter: blur(5px);
-            }
-            80%{
-                filter: blur(2rem);
-            }
-            100%{
-                filter: blur(4rem);
-            }
-        }
+       
         
-        @keyframes float {
-            0%{
-                transform: translateY(0rem);  
-            }
-            50%{
-                transform: translateY(2rem);  
-            }
-            100%{
-                transform: translateY(0rem);  
-            }
-        }
+      
     }
 
 
@@ -1438,37 +1412,10 @@
 
 
         .arrow{
-
-            .arrowdown{
-                // border: 1px solid red;
-
-                font-size: 50px;
-                animation: rotate 2s ease-in-out infinite;
-
-                &::after{
-                    top:30%;
-                }
-        
-            }
+            display: none;
         }
         
-        @keyframes rotate {
-            0%{
-                opacity: 0;
-                transform: translateY(0px);
-            }
-        
-            50%{
-                opacity: 1;
-                transform: translateY(10px);
-            }
-            100%{
-                opacity: 0;
-                transform: translateY(0px);
-            }
-        }
-
-
+      
 
 
     /////////////--///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1478,7 +1425,7 @@
             flex-direction: column;
 
             .one{
-                width: 23em;
+                width: 25em;
                 height: 23em;
                 overflow: hidden;
                 cursor: pointer;  
@@ -1519,13 +1466,13 @@
                     }
                     .pg{
 
-                        display: grid;
+                        display: none;
                         grid-template-rows:0rem;
                         overflow: hidden;
                         transition:grid-template-rows 0.3s ease-out;
                         p{
                             padding-top: 10px;
-                            font-size: px;
+                            font-size: 0px;
                             font-family: Gilroy_Regular;
                         }
 
@@ -1537,7 +1484,7 @@
                     transform: scale(1.1);
                     }
                     .cover{
-                        background-color: #3fb91e;
+                        background-color: transparent;
                         .pg{
                             grid-template-rows: 10rem;
 
@@ -1559,8 +1506,9 @@
         .textmain{
             display: flex;
             flex-direction: column;
-            align-items: center;
+            // border: 1px solid;
             gap: 2rem;
+            padding-right: 2rem;
 
             .text2{
                 font-size: 35px;
@@ -1600,14 +1548,14 @@
         .main1{
             display: flex;
             flex-direction: column;
-            gap:6rem;
+            gap:3rem;
             align-items: center;
             width: 100%;
-            padding-top: 70px;
+            padding-top: 10px;
 
             
             .text5{
-                font-size: 50px;
+                font-size: 35px;
                 font-family:Gilroy_Bold;
                 font-weight: 500;
             }
@@ -1684,10 +1632,10 @@
                     }
                     &:hover{
                         .imgbox .hoverimg{
-                            opacity: 1;
+                            opacity: 0;
                         }
                         .title {
-                            color: #3fb91e;
+                            color: black;
 
                             .arrow{
                                 transform: translate(7px,3px);
@@ -1711,7 +1659,8 @@
             display: flex;
             // border: 1px solid red;
             flex-direction: column;
-            height: 90rem;
+            height:42rem;
+            width: 100%;
             justify-content: center;
             padding-top: 50px;
 
@@ -1719,7 +1668,7 @@
                 display: flex;
 
                 background-image: url("https://api.digitalgarden.com.au/sites/default/files/styles/call_to_action_background/public/2021-07/DG_team_Post%20it%20notes.webp?itok=jQtu6-zy");
-                flex: 50%;
+                flex:0%;
 
             
             .box{
@@ -1730,7 +1679,7 @@
                 // border: 1px solid red;
                 justify-content: center;
                 background-color: rgb(1, 1, 1,0.88);   
-                padding: 10rem 6rem;
+                padding: 0rem 2rem;
         
                         
 
@@ -1750,13 +1699,13 @@
                         gap: 15px;
 
                         h3{
-                            font-size: 48px; 
+                            font-size: 23px; 
                             font-family: Gilroy_Bold; 
                         }
                         p{
                             display: flex;
                             justify-content: center;
-                            font-size: 25px;
+                            font-size: 18px;
                             font-family: Gilroy_Regular; 
 
                         }
@@ -1764,7 +1713,7 @@
                     span{
                         display: flex;
                         justify-content:flex-end;
-                        font-size: 23px;
+                        font-size: 16px;
                         font-family: Gilroy_Bold; 
                         text-decoration: underline;
                         color: #3fb91e;
@@ -1790,18 +1739,17 @@
             
                 // border: 1px solid blue;
                 color: white;
-
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                flex:50%;
+                flex:0%;
 
                 .boxbox{
                     display: flex;
                     flex-direction: column;
                     gap:50px;
                     justify-content: space-between;
-                    padding: 0px 7rem;
+                    padding: 0px 1rem;
 
                     .boxxx{
                         display: flex;
@@ -1809,7 +1757,7 @@
                         gap: 15px;
                         
                         h3{
-                            font-size: 46px;  
+                            font-size: 23px;  
                             font-family: Gilroy_Bold; 
 
                             
@@ -1818,7 +1766,7 @@
                         p{
                             display: flex;
                             justify-content: center;
-                            font-size: 25px;
+                            font-size: 18px;
                             font-family: Gilroy_Regular; 
 
                             
@@ -1827,7 +1775,7 @@
                     span{
                         display: flex;
                         justify-content:flex-end;
-                        font-size: 23px;
+                        font-size: 16px;
                         font-family: Gilroy_Bold; 
                         text-decoration: underline;
                         color: white;
@@ -1853,52 +1801,64 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-top: 50px;
+            padding-top: 20px;
+            width: 100%;
             .main3{
                 display: flex;
                 flex-direction: column;
-                gap: 60px;
+                gap: 20px;
                 align-items: center;
 
                 // border: 1px solid red;
-                width: 80rem;
+                width: 100%;
                 
                 .mainbox1{
                 display: flex;
                 justify-content: center;
 
+
                 h3{
-                    font-size: 60px;
+                    
+                    font-size: 30px;
                     font-family: Gilroy_Bold;
+                    font-weight: 400;
                 }
-            }
+             }
             .mainbox2{
+                width: 100%;
+
                 display: flex;
-                padding: 0px 30px;
+                flex-direction: column;
+                gap: 10px;
+                padding: 0px 20px;
                 span{
                     // border: 1px solid;
-                    width: 40rem;
+                    width: 24rem;
 
                 }
             
                 .firsttext{
                     font-family: Crimson_Regular;
-                    font-size: 36px;
+                    font-size: 26px;
                     
                 }
                 .secondtext{
                     font-family:Gilroy_Regular;
-                    font-size: 26px;
+                    font-size: 16px;
                 }
 
             }
             .mainbox3{
                 display: grid;
-                grid-template-columns: repeat(6,11rem);
-                column-gap: 4rem;
+                place-content: center;
+                // border: 1px solid;
+                grid-template-columns: repeat(2,9rem);
+                column-gap: rem;
+                padding-right: 20px;
+                
                 .img{
                     width: 180px;
-                    height: 140px;
+                    height: 120px;
                     // border: 1px solid blue;
                                 cursor: pointer;
 
@@ -1941,7 +1901,7 @@
         background-image: url("https://www.digitalgarden.com.au/_next/static/media/green.e278d745.svg");
         display: flex;
         width: 100%;
-        height: 25rem;
+        height: 28rem;
         align-items: center;
         justify-content: center;
         .main4main{
@@ -1950,9 +1910,12 @@
             align-items: center;       
             gap: 50px;
             span{
+                // border:1px solid;
+                width:23rem;
                 font-family: Gilroy_Bold;
                 color: white;
-                font-size: 50px;
+                font-size: 32px;
+                text-align: center;
             }
             .btnbox{
                 button{

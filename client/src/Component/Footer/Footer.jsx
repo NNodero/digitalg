@@ -41,6 +41,8 @@ function Footer() {
                   </div>
               </div>
             </div>
+            </div>
+
             <div  className={ftr.scl}>
                 <h3>Follow us</h3>
                 <div>
@@ -54,7 +56,6 @@ function Footer() {
 
             </div>
 
-        </div>
 
     </div>
   )

@@ -3,26 +3,40 @@
 }
 .footer{
     display: flex;
-    justify-content: space-around;
-    height: 25rem;
+    justify-content: space-between;
+    height:28rem;
     align-items: center;
     background: linear-gradient(180deg,#353535,#181818);
     color: white;
+    padding: 0px 5rem;
 
     .box1{
+        flex: 3;
+        
+        display: flex;
+        justify-content: flex-start;
+        border: 1px solid;
+        .imgbxox{
+            width: 4.5rem;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
 
     }
     .box2{
         display: flex;
+        flex:2;
         gap: 5rem;
 
         .nav{
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 20px;
             h3{
                 font-family:  Gilroy_Bold;
-                font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+                font-size: 17px;
             }
 
         }
@@ -38,7 +52,7 @@
               
                 h3{
                     font-family:  Gilroy_Bold;
-                    font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+                    font-size: 16px;
                 }
                 span{
                     font-family:  Gilroy_Regular;
@@ -69,7 +83,9 @@
                 }
             }
         }
+    }
         .scl{
+
             display: flex;
             flex-direction: column;
             gap: 12px;
@@ -86,5 +102,114 @@
         
         }
 
+    
+}
+
+@media screen and (max-width:515px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height:45rem;
+        padding: 20px 0px;
+        align-items: center;
+        background: linear-gradient(180deg,#353535,#181818);
+        color: white;
+    
+        .box1{
+            width: 90%;
+            display: flex;
+            justify-content: flex-start;
+            // border: 1px solid;
+            .imgbxox{
+                width: 4.5rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+    
+        }
+        .box2{
+            display: flex;
+            width: 90%;
+    
+            gap: 5rem;
+    
+            .nav{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3{
+                    font-family:  Gilroy_Bold;
+                    font-size: 16px;
+                }
+    
+            }
+            .address{
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                .sydney{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    width:11rem;
+                  
+                    h3{
+                        font-family:  Gilroy_Bold;
+                        font-size: 16px;
+                    }
+                    span{
+                        font-family:  Gilroy_Regular;
+                        font-size: calc(.8125rem + .1875 * ((100vw - 20rem) / 100)) ;
+                        color:#a3a3a3 ;
+                    }
+                }
+                .melbourne{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    width:11rem;
+    
+    
+                    h3{
+                        font-family:  Gilroy_Bold;
+                        font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+                    }
+                    span{
+                        font-family:  Gilroy_Regular;
+                        font-size: calc(.8125rem + .1875 * ((100vw - 20rem) / 100)) ;
+                        color:#a3a3a3 ;
+                    }
+                    .contact{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+                    }
+                }
+            }
+        }
+            .scl{
+                width: 90%;
+    
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                h3{
+                font-family:  Gilroy_Bold;
+                font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+                }
+                span{
+                    font-family:  Gilroy_Bold;
+                    font-size: calc(1rem + .25 * ((100vw - 20rem) / 100));
+                    color: #a3a3a3;            
+                }
+    
+            
+            }
+    
+        
     }
+    
 }
