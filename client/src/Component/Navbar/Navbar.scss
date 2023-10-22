@@ -11,6 +11,7 @@
     z-index: 10;
     box-shadow: -1px 4px 10px -6px rgba(189,189,189,1);
     transition: 0.5s ease-in-out;    
+    
     .first{
         // border: 1px solid red;    
 
@@ -26,6 +27,7 @@
 
         display: flex;
         gap: 3rem;
+        transform: translateY(0px);
             span{
                 font-family: Gilroy_Bold;
                 font-size: 20px;
@@ -63,6 +65,12 @@
         }
 
     }
+    .overlay{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
 
     
 }
@@ -91,4 +99,96 @@
         }
     }
     
+}
+
+@media screen and (max-width: 550px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        width: 50%;
+        height:10rem;
+        padding: 0px 2px;
+        background-color: white;
+        z-index: 10;
+        box-shadow: -1px 4px 10px -6px rgba(189,189,189,1);
+        transition: 0.5s ease-in-out;    
+        
+        .first{
+            // border: 1px solid red;    
+    
+            img{
+                 width: 4.5rem;
+                 height: 4rem;    
+                 transition: 0.5s ease-in-out;    
+           
+            }
+        }
+        .second{
+            // border: 1px solid red;    
+            position: fixed;
+            flex-direction: column;
+            left: 0;
+            top: 10rem;
+            width: 100%;
+            z-index: -1;
+            background-color:  #f7f7f7;;
+            display: none;
+            gap: 3rem;
+                span{
+                    font-family: Gilroy_Bold;
+                    font-size: 20px;
+                    display: grid;
+                    place-content: center;
+                    cursor: pointer;
+                        
+                }
+                .item1{
+                    &:hover { color: #f0148c; }                
+                }
+                .item2{
+                    &:hover { color: deepskyblue }                
+                }
+                .item3{
+                    &:hover { color: #a0248c; }                
+                }
+                .item4{
+                    &:hover { color: orange; }                
+                }
+                .item5{
+                    &:hover { color: #f84c1c }                
+                }
+                .item6{
+                    &:hover { color: #3fb91e; }                
+                }
+                .item7{
+                    font-size: 30px;
+                    font-family: Gilroy_thin;
+                }
+                
+            .searchbox{
+                display: flex;
+                align-items: center;
+            }
+    
+        }
+        .overlay{
+            display: none;
+        }
+        .icon{
+            display: block;
+        }
+    
+        
+    }
+    .bar {
+        height: 4rem;
+        .first{
+            img{
+                 width: 3.5rem;
+                 height: 3rem;           
+            }
+        }
+    }
 }
