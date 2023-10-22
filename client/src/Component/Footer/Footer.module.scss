@@ -118,6 +118,8 @@
         color: white;
     
         .box1{
+            height: 10%;
+
             width: 90%;
             display: flex;
             justify-content: flex-start;
@@ -132,6 +134,8 @@
     
         }
         .box2{
+            flex: 0;
+
             display: flex;
             width: 90%;
     
