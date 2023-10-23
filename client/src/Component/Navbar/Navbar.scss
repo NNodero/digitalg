@@ -102,13 +102,16 @@
 }
 
 @media screen and (max-width: 550px) {
+    *{
+        // border: 1px solid;
+    }
     .navbar{
         display: flex;
         align-items: center;
         justify-content: space-between;
         position: fixed;
         width: 100%;
-        height: 4rem;
+        height: 4.5rem;
         padding: 0px 20px;
         background-color: white;
         z-index: 10;
@@ -117,10 +120,11 @@
         
         .first{
             // border: 1px solid red;    
-    
+            transform: translateY(20px);
+
             img{
-                width: 3.5rem;
-                 height: 3rem;      
+                width: 4.5rem;
+                 height: 4rem;      
                  transition: 0.5s ease-in-out;    
            
             }
@@ -130,49 +134,35 @@
             position: fixed;
             flex-direction: column;
             left: 0;
-            top: 10rem;
+            top: 4.5rem;
+            min-height: 100vh;
             width: 100%;
             z-index: -1;
             background-color:  #f7f7f7;;
-            display: none;
-            gap: 3rem;
+            justify-content: center;
+            gap: 2rem;
                 span{
                     font-family: Gilroy_Bold;
-                    font-size: 20px;
-                    display: grid;
-                    place-content: center;
+                    font-size: 35px;
+                    display: flex;
+                    justify-content: flex-start;
+                    padding-left: 20px;
                     cursor: pointer;
+                    // border: 1px solid;
                         
                 }
-                .item1{
-                    &:hover { color: #f0148c; }                
-                }
-                .item2{
-                    &:hover { color: deepskyblue }                
-                }
-                .item3{
-                    &:hover { color: #a0248c; }                
-                }
-                .item4{
-                    &:hover { color: orange; }                
-                }
-                .item5{
-                    &:hover { color: #f84c1c }                
-                }
-                .item6{
-                    &:hover { color: #3fb91e; }                
-                }
-                .item7{
-                    font-size: 30px;
-                    font-family: Gilroy_thin;
-                }
-                
+            
+               
             .searchbox{
                 display: flex;
                 align-items: center;
             }
     
         }
+        .hide{
+            display: none;
+        }
+
         .overlay{
             display: none;
         }
@@ -189,6 +179,12 @@
                  width: 3.5rem;
                  height: 3rem;           
             }
+        }
+        .second{
+            // border: 1px solid red;    
+            
+            top: 3.4rem;
+           
         }
     }
 }
